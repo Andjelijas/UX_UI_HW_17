@@ -1,0 +1,19 @@
+i {
+color: cadetblue;
+
+
+}
+
+i:hover {
+color: coral;
+}
+#nav{
+    flex-direction: row;
+    text-decoration: none;
+
+}
+li {
+    display: inline;
+    padding: 80px;
+    text-decoration: none;
+  }
