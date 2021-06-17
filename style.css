@@ -5,15 +5,17 @@ color: cadetblue;
 }
 
 i:hover {
-color: coral;
+color: #FFC9C2;
 }
-#nav{
-    flex-direction: row;
-    text-decoration: none;
 
-}
+
+
 li {
     display: inline;
-    padding: 80px;
-    text-decoration: none;
+    padding: 60px;
+    
+    
+  }
+  a{
+      flex: right;
   }
