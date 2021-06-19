@@ -15,6 +15,7 @@ ul {
     color: white;
     text-align: center;
     padding: 16px;
+    margin: 8px;
     text-decoration: none;
   }
   .icons{
@@ -24,15 +25,28 @@ ul {
     background-color: #E9A39A;
   }
   
-  .name{
-      float: right;
-
+  <style>
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
   .heroimage {
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .hero-text {
+    text-align: left;
+    position: absolute;
+    top: 70%;
+    left: 2%;
+    transform: translate(none);
+    color: #073B39;
+  }  
 
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero1.png");
-  
     /* Set a specific height */
     width: 600px;
     height: 300px;
@@ -45,21 +59,12 @@ ul {
     background-size: cover;
     position: relative;
   }
+  .hero-text{
+
+  }
+
+  }
   /*
-
-i {
-color: cadetblue;
-
-
-}
-
-i:hover {
-color: #FFC9C2;
-
-
-}
-
-
 
 li {
     display: inline;
@@ -69,7 +74,7 @@ li {
     color: white;
 
 }
-    body, html {
+    header, html {
         height: 100%;
         .hero-text {
       text-align: center;
@@ -78,7 +83,7 @@ li {
       left: 50%;
       transform: translate(-50%, -50%);
       color: yellow;
-    }
+    
     }
     
     /* The hero image */
