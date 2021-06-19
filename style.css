@@ -45,25 +45,11 @@ ul {
     left: 2%;
     transform: translate(none);
     color: #073B39;
+    font-family: Georgia, 'Times New Roman', Times, serif
   }  
 
-    /* Set a specific height */
-    width: 600px;
-    height: 300px;
-
+ 
   
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    position: relative;
-  }
-  .hero-text{
-
-  }
-
-  }
   /*
 
 li {
@@ -92,6 +78,10 @@ li {
     /* Place text in the middle of the image */
     
     footer{
+        display: center;
         text-align: center;
+        background-color:#7B9081;
+        color: white;
+
 
     }
