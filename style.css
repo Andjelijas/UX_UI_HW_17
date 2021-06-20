@@ -37,13 +37,13 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: linear-gradient(rgba(238, 182, 63, 0.5), rgba(84, 88, 18, 0.5));
+  
   }
   .hero-text {
     text-align: left;
     position: absolute;
     top: 95%;
-    left: 2%;
+    left: 3%;
     transform: translate(none);
     color: #073B39;
     font-family: Georgia, 'Times New Roman', Times, serif
